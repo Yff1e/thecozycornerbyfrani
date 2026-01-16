@@ -7,14 +7,14 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+const geistMono = Geist_Mono({  
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
 export const metadata = {
   title: "The Cozy Corner",
-  description: "A cozy online bookstore with great recommendations",
+  description: "A cozy online bookstore with hand-picked recommendations",
 };
 
 export default function RootLayout({ children }) {
